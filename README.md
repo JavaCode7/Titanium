@@ -1,2 +1,2 @@
 # Titanium
- An esoteric programming language I made to honor John Conway.
+ An esoteric programming language I made to honour John Conway.

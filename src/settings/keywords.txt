@@ -1,14 +1,3 @@
 glider
-lwss
-mwss
-hwss
-weekender
 block
-beehive
-loaf
-tub
 blinker
-toad
-beacon
-pulsar
-quadrant

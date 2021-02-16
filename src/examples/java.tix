@@ -1,6 +1,6 @@
-glider: "Java"
-block: "Do you like Java? "
-glider: "If you don't like Java, I will throw an error."
-block: "So do you like Java? [Please say yes] "
-glider: "Bye =D"
+glider: Java
+block: Do you like Java? 
+glider: If you don't like Java, I will throw an error.
+block: So do you like Java? [Please say yes] 
+glider: Bye =D
 eater

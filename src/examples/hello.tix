@@ -1,4 +1,4 @@
-glider: "Hello World"
-blinker: "How are you?"
+glider: Hello World
+glider: How are you?
 block: input
-eater
+blinker: bye

@@ -12,8 +12,9 @@
  - And finally add together the numeric values (the position of the letters in question in the alphabet not base 36) of the capitalised letters and google the element with that atomic number. You should get titanium.
 
 ## Syntax
- Titanium, like [Thulium](https://github.com/JavaCode7/Thulium) runs on commands. Unlike Thulium however, there are currently only 3 types:
+ Titanium, like [Thulium](https://github.com/JavaCode7/Thulium) runs on commands. Unlike Thulium however, there are currently only 4 types:
 
  - glider: output -- prints output to the console in yellow.
  - block: prompt -- prompts the user to enter input. The prompt is coloured cyan.
  - blinker: error -- Exits the program and prints the error in red.
+ - eater -- exits the program without printing anything.

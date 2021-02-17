@@ -7,8 +7,8 @@ if "%1" == "compile" (
     )
 ) else if "%1" == "run" (
     if "%3" == "" (
-        compiler.bat %1 %1.bat
-        %1
+        compiler.bat %2 %2.bat
+        %2
     ) else if "%3" == "-o" (
         compiler.bat %2 %4
         %4

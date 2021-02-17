@@ -19,7 +19,30 @@
  - blinker: error -- exits the program and prints the error in red.
  - eater -- exits the program without printing anything.
 
+## Usage
+ To run .\hello.tix either run this command:
+ ```
+ titanium run .\hello.tix
+ ```
+ or these:
+ ```
+ titanium compile .\hello.tix
+ .\hello.tix.bat
+ ```
+ To simply compile hello.tix to batch:
+ ```
+ titanium compile .\hello.tix
+ ```
+ To get help:
+ ```
+ titanium
+ ```
+ To print current version:
+ ```
+ titanium version
+ ```
+
 ## Downloads
 
 ### [1.0.0](https://github.com/JavaCode7/Titanium/releases/tag/v1.0.0)
-[Windows](https://github.com/JavaCode7/Titanium/releases/download/v1.0.0/titanium.zip)
+[Windows](https://github.com/JavaCode7/Titanium/releases/download/v1.0.0/titanium-1.0.0.zip)

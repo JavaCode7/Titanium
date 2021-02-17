@@ -13,6 +13,8 @@ if "%1" == "compile" (
         compiler.bat %2 %4
         %4
     )
+) else if "%1" == "version" (
+    echo Titanium version 1.0.0
 ) else if "%1" == "" (
     echo. Titanium Cli usage:
     echo.   titanium option [params*]
@@ -20,5 +22,6 @@ if "%1" == "compile" (
     echo. Where option can be:
     echo.   compile: simply compiles the first parameter. The -o flag will specify the output [optional].
     echo.   run    : compile and run the frst parameter. The -o flag will specify the output *.tix.bat file.
+    echo.   version: prints the current version.
 )
 exit /b

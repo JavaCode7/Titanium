@@ -16,5 +16,10 @@
 
  - glider: output -- prints output to the console in yellow.
  - block: prompt -- prompts the user to enter input. The prompt is coloured cyan.
- - blinker: error -- Exits the program and prints the error in red.
+ - blinker: error -- exits the program and prints the error in red.
  - eater -- exits the program without printing anything.
+
+## Downloads
+
+### [1.0.0](https://github.com/JavaCode7/Titanium/releases/tag/v1.0.0)
+[Windows](https://github.com/JavaCode7/Titanium/releases/download/v1.0.0/titanium.zip)

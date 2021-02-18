@@ -55,6 +55,9 @@
 
 ## Downloads
 
+### [1.1.0](https://github.com/JavaCode7/Titanium/releases/tag/v1.1.0)
+[Windows](https://github.com/JavaCode7/Titanium/releases/download/v1.1.0/titanium-1.1.0.zip)
+
 ### [1.0.1](https://github.com/JavaCode7/Titanium/releases/tag/v1.0.1)
 [Windows](https://github.com/JavaCode7/Titanium/releases/download/v1.0.1/titanium-1.0.1.zip)
 

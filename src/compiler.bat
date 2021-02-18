@@ -19,8 +19,8 @@ for /f "delims=*" %%y in (%1) do (
 :: And then compile to batch.
 for /L %%z in (1, 1, %count%) do (
    :: Run through every line
-   for /F "delims=: tokens=1,2" %%a in ("!lines[%%z]!") do (
-      :: Check if %%a is in keywords.txt
+   for /F "delims=: tokens=1,2,3,4" %%a in ("!lines[%%z]!") do (
+      :: Check if %%a is a keyword
       if %%a == glider (
          echo echo [93m%%b[0m>>%2
       ) else if %%a == block (
@@ -29,7 +29,13 @@ for /L %%z in (1, 1, %count%) do (
          echo echo [91m%%b[0m>>%2
          echo exit /b>>%2
       ) else if %%a == eater (
-         echo exit /b>>%2        
+         echo exit /b>>%2 
+      ) else if %%a == gun (
+         if %%c == glider (
+            echo for /L %%%%s in %%b do echo [93m%%d[0m>>%2
+         ) else if %%c == block (
+            echo for /L %%%%s in %%b do set /p v=[96m%%d[0m>>%2
+         )
       )
    )
 )

@@ -12,12 +12,21 @@
  - And finally add together the numeric values (the position of the letters in question in the alphabet not base 36) of the capitalised letters and google the element with that atomic number. You should get titanium.
 
 ## Syntax
- Titanium, like [Thulium](https://github.com/JavaCode7/Thulium) runs on commands. Unlike Thulium however, there are currently only 4 types:
+ Titanium, like [Thulium](https://github.com/JavaCode7/Thulium) runs on commands. Unlike Thulium however, there are currently only 5 types:
 
  - glider: output -- prints output to the console in yellow.
  - block: prompt -- prompts the user to enter input. The prompt is coloured cyan.
  - blinker: error -- exits the program and prints the error in red.
+ - gun: (begin, step, end): code -- equivalent to this in batchfile:
+ 
+   ```bat
+     for /L %%v in (begin, step, end) do (
+        code
+     )
+   ```
  - eater -- exits the program without printing anything.
+
+ **<p style="color:red"> P.S. Nested loops are not supported.</p>**
 
 ## Usage
  To run .\hello.tix either run this command:
@@ -41,6 +50,8 @@
  ```
  titanium version
  ```
+### Please Note
+ Please note that the running process will only be executed properly if single backslashes are used in the path.
 
 ## Downloads
 
